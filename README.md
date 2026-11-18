@@ -25,5 +25,7 @@ resultados_colabfold/: Salidas de métricas estructurales (pLDDT, PAE) generadas
 
 **Autor:**
 Ing. Silvio Rainel Garcia Rondón
+
 Maestría en Informática y Tecnologías Computacionales
+
 Universidad Autónoma de Aguascalientes (UAA).
