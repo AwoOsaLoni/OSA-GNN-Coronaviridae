@@ -4,10 +4,15 @@ Prototipo de investigación aplicada para la predicción de funciones moleculare
 
 ## Estructura del Proyecto
 scripts/pdb_processor.py & generar_grafos.py: Construcción de matrices de adyacencia espacial (umbral de contacto de 10 Å entre carbonos alfa).
+
 scripts/generar_embeddings.py: Extracción de representaciones bioquímicas de 320 dimensiones usando ESM-2.
+
 scripts/dataset_loader.py: Serialización hacia objetos Data de PyTorch Geometric.
+
 scripts/modelo_gnn.py & entrenamiento.py: Arquitectura OSA-GNN (3 capas GATConv + global_mean_pool) y ciclo iterativo de pseudo-etiquetado.
+
 scripts/comparativa_metodologica.py: Estudio de ablación **in silico** con validación cruzada de 5 pliegues (5-Fold CV).
+
 resultados_colabfold/: Salidas de métricas estructurales (pLDDT, PAE) generadas con ColabFold v1.6.2.
 
 ## Reproducibilidad con Docker
