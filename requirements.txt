@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torch-geometric
+transformers
+scipy
+biopython
+numpy
+requests
+pandas
+scikit-learn

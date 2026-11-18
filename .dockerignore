@@ -1,0 +1,6 @@
+resultados_colabfold/
+estructuras_pdb_esmfold/
+databases/
+*.json
+__pycache__/
+.git/
