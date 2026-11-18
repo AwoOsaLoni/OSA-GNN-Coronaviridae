@@ -23,6 +23,7 @@ resultados_colabfold/: Salidas de métricas estructurales (pLDDT, PAE) generadas
 2. **Ejecutar el pipeline de entrenamiento y ablación:**
    docker run --rm -v $(pwd):/app osa-gnn-app python scripts/comparativa_metodologica.py
 
+
 **Autor:**
 Ing. Silvio Rainel Garcia Rondón
 
